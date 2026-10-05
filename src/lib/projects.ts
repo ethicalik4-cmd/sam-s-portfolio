@@ -1,6 +1,6 @@
 import savannaImage from "@/assets/savanna-spice.png.asset.json";
 import wanderlensImage from "@/assets/wanderlens.png.asset.json";
-import climeImage from "@/assets/clime.png.asset.json";
+import solesmithImage from "@/assets/solesmith.png.asset.json";
 
 export type Project = {
   slug: string;
@@ -55,21 +55,21 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "clime",
+    slug: "solecraft",
     number: "03",
-    title: "Clime",
-    kicker: "Weather, beautifully clear.",
-    description: "A live weather dashboard that answers the only question that matters — what's it like right now — without burying it in clutter.",
-    image: climeImage.url,
-    imageAlt: "Clime weather dashboard showing live conditions for New York",
-    technologies: ["React", "TypeScript", "OpenWeather API", "PWA"],
-    accent: "sky",
-    challenge: "Mainstream weather apps bury the answer to a simple question under ads, tabs, and dense radar imagery. Users open the app, hunt for the temperature, and leave frustrated — and on slow connections, the experience often times out before it finishes loading.",
-    solution: "Clime strips weather back to its essentials: one glanceable view of current conditions, air quality, and the shape of the day ahead. Live data loads in a single request, the interface adapts its backdrop to real sky conditions, and offline caching keeps the last known forecast available anywhere.",
+    title: "SoleCraft",
+    kicker: "Made to be walked in.",
+    description: "A storefront for premium handmade shoes and bags — crafted in Nigeria, presented with the polish of a global brand, and built to convert browsing into orders.",
+    image: solesmithImage.url,
+    imageAlt: "SoleCraft storefront hero showing premium handmade leather shoes",
+    technologies: ["React", "Next.js", "Tailwind CSS", "Stripe"],
+    accent: "clay",
+    challenge: "A skilled shoemaker and bag designer built a loyal following through WhatsApp and Instagram DMs — but had no real storefront. Prices were quoted chat by chat, the catalogue lived in photo galleries, and new customers had no way to browse, compare, or buy without a conversation first.",
+    solution: "We designed a bold, editorial commerce site that treats every product like a hero piece: full-width photography, clear sizing and care details, a simple cart and checkout, and WhatsApp integration for custom orders — so the craft sells itself before the first message is sent.",
     outcomes: [
-      { value: "1.2s", label: "average cold load time" },
-      { value: "92", label: "Lighthouse performance score" },
-      { value: "40k", label: "weekly active users" },
+      { value: "2.4×", label: "more monthly orders" },
+      { value: "57%", label: "of orders placed online" },
+      { value: "31%", label: "repeat customer rate" },
     ],
   },
 ];
