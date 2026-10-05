@@ -7,7 +7,6 @@ const navItems = [
   ["About", "#about"],
   ["Services", "#services"],
   ["Projects", "#projects"],
-  ["Testimonials", "#testimonials"],
 ] as const;
 
 export function SiteHeader() {
