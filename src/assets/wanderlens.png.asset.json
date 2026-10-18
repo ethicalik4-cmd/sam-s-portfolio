@@ -2,10 +2,10 @@
   "version": 1,
   "asset_id": "74e8d852-a03a-4383-a648-24d50213ae8a",
   "project_id": "d5b7a15a-e0d3-4e30-b497-5a25e9a7090d",
-  "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+  "url": "/images/projects/wanderlens.svg",
   "r2_key": "a/v1/d5b7a15a-e0d3-4e30-b497-5a25e9a7090d/74e8d852-a03a-4383-a648-24d50213ae8a/wanderlens.png",
   "original_filename": "wanderlens.png",
   "size": 1879782,
-  "content_type": "image/png",
-  "created_at": "2026-10-04T23:06:06Z"
+  "content_type": "image/svg+xml",
+  "created_at": "2026-10-18T00:00:00Z"
 }
