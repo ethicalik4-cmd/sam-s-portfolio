@@ -1,6 +1,6 @@
-import savannaImage from "@/assets/savanna-spice.webp.asset.json";
-import wanderlensImage from "@/assets/wanderlens.webp.asset.json";
-import solesmithImage from "@/assets/solescraft.webp.asset.json";
+import savannaImage from "@/assets/savanna-spice.webp";
+import wanderlensImage from "@/assets/wanderlens.webp";
+import solesmithImage from "@/assets/solescraft.webp";
 
 export type Project = {
   slug: string;
